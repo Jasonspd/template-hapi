@@ -1,0 +1,15 @@
+{
+  "name": "template-hapi",
+  "version": "1.0.0",
+  "description": "Template for Hapi projects",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app"
+  },
+  "author": "Founders & Coders",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^8.5.1"
+  }
+}
