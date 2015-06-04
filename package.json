@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/Jasonspd/template-hapi",
   "dependencies": {
-    "hapi": "^8.5.1"
+    "browserify": "^10.2.3",
+    "hapi": "^8.5.1",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.1"
   }
 }
