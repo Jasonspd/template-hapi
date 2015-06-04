@@ -1,5 +1,6 @@
 var React = require("react");
 var Store = require("../stores/Store");
+var AnotherComponent = require("./AnotherComponent");
 
 function getStateFromStore() {
 	return {
@@ -29,8 +30,7 @@ var MainApp = React.createClass({
 		console.log(this.state.data);
 		return (
 			<div className="app-wrapper">
-				<h1>My name is {this.state.data.name}</h1>
-				<h3>I am {this.state.data.age} years old</h3>
+				<AnotherComponent data={this.state.data} />
 			</div>
 		);
 	}
